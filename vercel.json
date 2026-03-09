@@ -1,0 +1,24 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/finnhub/:path*",
+      "destination": "https://finnhub.io/api/v1/:path*"
+    },
+    {
+      "source": "/api/fred/:path*",
+      "destination": "https://api.stlouisfed.org/fred/:path*"
+    },
+    {
+      "source": "/api/polygon/:path*",
+      "destination": "https://api.polygon.io/:path*"
+    },
+    {
+      "source": "/api/twelvedata/:path*",
+      "destination": "https://api.twelvedata.com/:path*"
+    },
+    {
+      "source": "/api/alternative/:path*",
+      "destination": "https://api.alternative.me/:path*"
+    }
+  ]
+}
